@@ -1,0 +1,7 @@
+# Common stuff to ignore
+node_modules/
+.env
+.DS_Store
+*.log
+.vscode/
+*.tmp
