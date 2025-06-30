@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business Nexus</title>
+  <link rel="stylesheet" href="craeteAcc.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="box">
+    <h1>Welcome To <span style="color: rgb(54, 255, 188);font-weight: bold;">Nexus</span></h1>
+    <h2><span style="color: rgb(54, 255, 188);font-weight: bold;">Create</span> Your Account</h2>
+
+    <div class="login-container">
+      <form id="register-form">
+      <div class="input-field">
+        <label for="email">Email</label>
+        <i class="ri-mail-line" id="icon"></i>
+        <input type="text" id="email" class="input" placeholder="Email " required>
+      </div>
+
+      <div class="input-field">
+        <label for="password">Password</label>
+        <i class="ri-lock-line" id="icon"></i>
+        <input type="password" id="password" class="input" placeholder="Password" required>
+
+      </div>
+      <!-- <h4 style="color: rgb(107, 220, 152);font-weight: 600;ml5%">select your role</h4> -->
+      <div class="rolesParent">
+        <span>
+          <label for="investor">investor</label>
+          <input type="radio" name="role" value="investor" required />
+        </span>
+        <span>
+          <label for="entrepreneur">entrepreneur</label>
+          <input type="radio" name="role" value="entrepreneur" required />
+        </span>
+      </div>
+
+
+      <div class="showPassParent">
+        <input type="checkbox" name="checkbox" id="checkbox">
+        <label for="showPassword" id="showPassword">Show Password</label>
+      </div>
+
+      <button class="login-btn" type="submit">Create Account</button>
+      <a href="../log-in_folder/log-in_page.html" class="link">Already Have an Account</a>
+      </form>
+    </div>
+
+    <script src="createAcc.js"></script>
+</body>
+
+</html>

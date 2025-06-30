@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Login Page</title>
+    <link rel="stylesheet" href="log-in.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <div class="box">
+        <h1>Welcome To <span style="color: rgb(54, 255, 188);font-weight: bold;">Nexus</span></h1>
+      
+        
+  <div class="login-container">
+    <form id="login-form">
+    <div class="input-field">
+      <label for="email">Email</label>
+      <i class="ri-mail-line" id="icon"></i>
+      <input type="text" id="email" class="input" placeholder="Email " required>
+    </div>
+
+    <div class="input-field">
+      <label for="password">Password</label>
+      <i class="ri-lock-line" id="icon"></i>
+      <input type="password" id="password" class="input" placeholder="Password" required>
+    </div>
+    <div class="showPassParent">
+    <input type="checkbox" name="checkbox" id="checkbox">
+    <label for="showPassword" id="showPassword">Show Password</label>
+    </div>
+
+    <button class="login-btn" type="submit">Login</button>
+    <a href="../create_account_folder/create-account_page.html" class="link">Create an account </a>
+    </form>
+    </div>
+    
+    <script type="module" src="login.js"></script>
+</body>
+</html>

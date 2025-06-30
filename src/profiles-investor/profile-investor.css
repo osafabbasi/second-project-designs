@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+body{
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    
+}
+.parent{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    width: 100vw;
+}
+.side-bar{
+    width: 20%;
+    background-color: rgb(210, 210, 210);
+    height: 100%;
+}
+.main-box{
+    /* background-color: red; */
+    width: 80%;
+    height: auto;
+    overflow: auto;
+}
+.details-parent{
+    height: 45%;
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 5%;
+    padding: 2%;
+    border: 1px solid rgba(128, 128, 128, 0.361);
+    border-radius: 13px;
+    box-shadow: 10px 10px 15px 0px rgba(128, 128, 128, 0.438);
+}
+.details-parent div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.details-parent h2{
+    margin-top: 3%;
+    font-size: 2.3vw;
+    text-align: center;
+}
+.bio-box{
+    margin-top: 1%;
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    font-size: 1.3vw;
+    color: rgb(103, 49, 229);
+    font-weight: bold;
+}
+
+.details-parent img{
+    width: 15%;
+    border-radius: 50%;
+}
+.bio{
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    
+}
+.details{
+    font-weight: 600;
+    margin-left: 3%;
+}
+.about,.investment-interest{
+   height: 40%;
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 5%;
+    padding: 2%;
+    border: 1px solid rgba(128, 128, 128, 0.361);
+    border-radius: 13px;
+    box-shadow: 10px 10px 15px 0px rgba(128, 128, 128, 0.438);
+    padding: 2%;
+}
+.about h2{
+    font-size: 2.5vw;
+    color: rgb(30, 37, 59);
+    text-decoration: underline rgb(77, 77, 232);
+  margin-bottom: 2%;
+}
+
+.startup-name{
+    height: 26%;
+    width: 80%;
+    /* background-color: orange; */
+}
+.startup-name h4{
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+.startup-name h4 span, .startup-name p span{
+    font-weight: 600;
+    color: rgb(57, 57, 194);
+}
+.startup-name p{
+    font-size: 1.4vw;
+    margin-top: 1%;
+}
+.funding-need-parent{
+    height: 45%;
+    width: 40%;
+    /* background-color: red; */
+    margin-top: 2%;
+    border-radius: 10px;
+        box-shadow: 2px 5px 3px 0px rgba(128, 128, 128, 0.438);
+    border: 1px solid rgba(128, 128, 128, 0.361);
+    padding: 10px;
+    /* margin-left: 25%; */
+}
+.funding-need-parent h4{
+     font-size: 1.5vw;
+    font-weight: 500;
+    color: rgb(134, 134, 134);
+    margin-bottom:4%;
+    margin-left: 25%;
+    margin-top: 3%;
+}
+.funding-need-parent h5{
+      font-size: 1.5vw;
+    font-weight: 550;
+    color: rgb(57, 57, 194);
+     margin-left: 38%;
+}
+
+
+.investment-interest{
+    height: 20%;
+    margin-bottom: 5%;
+}
+.investment-interest h2{
+    font-size: 2vw;
+    font-weight: 500;
+
+}
+.interest{
+    margin-top: 0.9%;
+    font-weight: 600;
+    color: rgb(97, 73, 220);
+}
+.heading{
+    height: 20%;
+    width: 70%;
+    margin-top: 15%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.heading h2{
+    font-size: 3vw;
+    font-weight: 500;
+    color: rgb(55, 112, 211);
+}
+.heading span{
+    font-weight: 600;
+    color: rgb(33, 66, 197);
+    
+}
+
+/* side bar code */
+.opt{
+    height: 30%;
+    width: 80%;
+    /* background-color: orange; */
+    margin-top: 25%;
+}
+.opt .links{
+    text-decoration: none;
+    color: black;
+    font-size: 1.6vw;
+    margin-right: 50%;
+}
+.links-parent{
+    margin-top: 15%;
+    width: 60%;
+    margin-left: 15%;
+    padding: 10px;
+}
+.links-parent:active{
+    background-color: rgb(201, 201, 201);
+    border-radius: 5px;
+}
+
+
